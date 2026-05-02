@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Refund Policy — Bzillion.Club</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <style>
+    :root{--red:#cc0000;--red-bright:#ff1a1a;--gold:#c9a84c;--gold-light:#e8c97a;--dark:#080808;--dark2:#0f0f0f;--dark3:#161616;--border:#252525;--white:#f5f0eb;--muted:#777;--text:#c8c0b8;}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    body{background:var(--dark);color:var(--text);font-family:'DM Sans',sans-serif;font-size:16px;line-height:1.8;overflow-x:hidden;}
+    body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:1000;opacity:0.4;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");}
+    .topbar{background:var(--red);text-align:center;padding:10px 20px;font-family:'Oswald',sans-serif;font-size:13px;letter-spacing:2px;text-transform:uppercase;color:var(--white);}
+    .topbar span{color:var(--gold-light);}
+    header{background:var(--dark2);border-bottom:1px solid var(--border);padding:16px 40px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;}
+    .logo{font-family:'Oswald',sans-serif;font-size:26px;font-weight:700;color:var(--white);text-decoration:none;letter-spacing:3px;text-transform:uppercase;}
+    .logo em{color:var(--red);font-style:normal;}
+    nav a{color:var(--muted);text-decoration:none;font-size:13px;margin-left:20px;transition:color 0.2s;}
+    nav a:hover{color:var(--white);}
+    .page-hero{background:linear-gradient(160deg,#1a0000 0%,var(--dark) 100%);border-bottom:1px solid var(--border);padding:70px 40px 50px;text-align:center;position:relative;overflow:hidden;}
+    .page-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 60% 80% at 50% 0%,rgba(204,0,0,0.1) 0%,transparent 70%);}
+    .page-hero-inner{position:relative;z-index:2;}
+    .eyebrow{display:inline-block;background:rgba(204,0,0,0.1);border:1px solid rgba(204,0,0,0.3);border-radius:2px;padding:5px 16px;font-family:'Oswald',sans-serif;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--red-bright);margin-bottom:16px;}
+    .page-hero h1{font-family:'Oswald',sans-serif;font-weight:700;font-size:clamp(36px,6vw,60px);text-transform:uppercase;letter-spacing:2px;color:var(--white);margin-bottom:10px;}
+    .page-hero p{color:var(--muted);font-size:14px;letter-spacing:1px;}
+    .hero-line{width:50px;height:3px;background:linear-gradient(90deg,var(--red),var(--gold));margin:16px auto 0;}
+    main{max-width:820px;margin:0 auto;padding:60px 40px 80px;}
+    h2{font-family:'Oswald',sans-serif;font-weight:700;font-size:20px;letter-spacing:1px;text-transform:uppercase;color:var(--white);margin:44px 0 14px;padding-bottom:10px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px;}
+    h2:first-child{margin-top:0;}
+    .num{color:var(--red);font-size:14px;}
+    p{color:var(--text);margin-bottom:14px;line-height:1.8;}
+    ul{color:var(--text);padding-left:0;margin-bottom:14px;list-style:none;display:flex;flex-direction:column;gap:8px;}
+    ul li{padding-left:20px;position:relative;line-height:1.7;font-size:15px;}
+    ul li::before{content:'→';position:absolute;left:0;color:var(--red);font-size:12px;top:3px;}
+    a{color:var(--gold-light);text-decoration:none;}
+    a:hover{text-decoration:underline;}
+    strong{color:var(--white);}
+    .highlight-box{background:var(--dark3);border:1px solid var(--border);border-left:3px solid var(--red);padding:20px 24px;margin:0 0 36px;font-family:'Source Serif 4',serif;font-style:italic;font-size:17px;color:var(--text);line-height:1.8;}
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0;}
+    @media(max-width:600px){.two-col{grid-template-columns:1fr;}}
+    .policy-card{background:var(--dark3);border:1px solid var(--border);padding:24px;border-radius:2px;}
+    .policy-card h3{font-family:'Oswald',sans-serif;font-weight:700;font-size:16px;letter-spacing:1px;text-transform:uppercase;margin-bottom:14px;}
+    .policy-card h3.yes{color:#4ade80;}
+    .policy-card h3.no{color:#ff6666;}
+    .policy-card ul li::before{color:#4ade80;}
+    .policy-card.no-card ul li::before{color:#ff4444;}
+    .step-row{display:flex;gap:20px;align-items:flex-start;background:var(--dark3);border:1px solid var(--border);padding:20px 24px;margin-bottom:4px;}
+    .step-n{font-family:'Oswald',sans-serif;font-size:36px;font-weight:700;color:var(--red);line-height:1;flex-shrink:0;width:40px;}
+    .step-body h4{font-family:'Oswald',sans-serif;font-weight:600;font-size:17px;letter-spacing:0.5px;color:var(--white);margin-bottom:4px;}
+    .step-body p{margin:0;font-size:14px;color:var(--muted);}
+    footer{background:#050505;border-top:1px solid var(--border);padding:36px 40px 24px;}
+    .footer-container{max-width:820px;margin:0 auto;}
+    .footer-links{display:flex;gap:20px;flex-wrap:wrap;justify-content:center;margin-bottom:14px;}
+    .footer-links a{color:#555;text-decoration:none;font-size:13px;}
+    .footer-links a:hover{color:var(--white);}
+    .footer-copy{text-align:center;color:#444;font-size:12px;}
+    @media(max-width:640px){header{padding:16px 20px;}main{padding:40px 20px 60px;}.page-hero{padding:50px 20px 36px;}}
+  </style>
+</head>
+<body>
+<div class="topbar">VIP Annual Membership — <span>$15/Year</span> (Was $24) — 37% Off</div>
+<header>
+  <a href="index2.html" class="logo">Bzillion<em>.</em>Club</a>
+  <nav>
+    <a href="index2.html">Home</a>
+    <a href="privacy-policy2.html">Privacy</a>
+    <a href="terms-of-service2.html">Terms</a>
+    <a href="refund-policy2.html">Refund</a>
+    <a href="contact2.html">Contact</a>
+  </nav>
+</header>
+<div class="page-hero">
+  <div class="page-hero-inner">
+    <div class="eyebrow">Legal</div>
+    <h1>Refund Policy</h1>
+    <p>Last Updated: January 1, 2026</p>
+    <div class="hero-line"></div>
+  </div>
+</div>
+<main>
+  <div class="highlight-box">Bzillion.Club VIP membership is a digital product. Please read this policy carefully before purchasing. All membership fees are non-refundable once the account is activated and access is granted.</div>
+
+  <h2><span class="num">01</span> At a Glance</h2>
+  <div class="two-col">
+    <div class="policy-card">
+      <h3 class="yes">✓ May Be Considered</h3>
+      <ul>
+        <li>Technical issues preventing any platform access</li>
+        <li>Duplicate charges or billing errors</li>
+        <li>Service fundamentally not delivered as described</li>
+        <li>Request submitted within 7 days of purchase</li>
+      </ul>
+    </div>
+    <div class="policy-card no-card">
+      <h3 class="no">✗ Not Eligible</h3>
+      <ul>
+        <li>Change of mind after account activation</li>
+        <li>Not achieving desired traffic or income results</li>
+        <li>Geographic tier restrictions discovered after purchase</li>
+        <li>Account terminated due to policy violations</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2><span class="num">02</span> Non-Refundable Digital Product</h2>
+  <p>VIP Annual Membership ($15/year) is a <strong>non-refundable digital privilege</strong>, as stated in our Terms of Service and consistent with Bzillion.Club's platform policy. This applies to all membership tiers. Membership fees are analogous to purchasing advertising space — once access is granted and the service is delivered, it cannot be returned.</p>
+  <p>We strongly recommend reviewing all features, geographic restrictions, and platform details on our <a href="index2.html">sales page</a> before purchasing.</p>
+
+  <h2><span class="num">03</span> WarriorPlus Purchases</h2>
+  <p>All payments for this offer are processed via WarriorPlus. Please note:</p>
+  <ul>
+    <li>All payments go directly to the product vendor (BB Enterprises), NOT to WarriorPlus</li>
+    <li>All refund requests must be directed to us at <a href="mailto:admin@bzillion.club">admin@bzillion.club</a>, not WarriorPlus</li>
+    <li>WarriorPlus's involvement does not constitute an endorsement or guarantee of results</li>
+  </ul>
+
+  <h2><span class="num">04</span> How to Request a Review</h2>
+  <div class="step-row">
+    <div class="step-n">1</div>
+    <div class="step-body">
+      <h4>Email Us</h4>
+      <p>Send your request to <a href="mailto:admin@bzillion.club">admin@bzillion.club</a> with subject line "Refund Request"</p>
+    </div>
+  </div>
+  <div class="step-row">
+    <div class="step-n">2</div>
+    <div class="step-body">
+      <h4>Include Your Details</h4>
+      <p>Full name, purchase email, WarriorPlus order ID, date of purchase, and clear reason for your request</p>
+    </div>
+  </div>
+  <div class="step-row">
+    <div class="step-n">3</div>
+    <div class="step-body">
+      <h4>Wait for Review</h4>
+      <p>Our team reviews all requests within 3–5 business days and responds via email</p>
+    </div>
+  </div>
+  <div class="step-row">
+    <div class="step-n">4</div>
+    <div class="step-body">
+      <h4>Resolution</h4>
+      <p>If approved, refunds are processed to the original payment method within 5–10 business days</p>
+    </div>
+  </div>
+
+  <h2><span class="num">05</span> Chargebacks</h2>
+  <p>We strongly encourage contacting us before initiating any chargeback with your bank or payment provider. Unauthorized chargebacks may result in immediate account termination and will be disputed with documented evidence of service delivery.</p>
+
+  <h2><span class="num">06</span> Auto-Renewal</h2>
+  <p>If you activate auto-renewal, your membership will be automatically renewed at the prevailing rate at time of renewal. You may deactivate auto-renewal at any time through Profile → Settings in your dashboard — no fees, no penalties.</p>
+
+  <h2><span class="num">07</span> Contact Us</h2>
+  <ul>
+    <li>Email: <a href="mailto:admin@bzillion.club">admin@bzillion.club</a></li>
+    <li>Website: <a href="https://bzillion.club" target="_blank">Bzillion.Club</a></li>
+    <li>Operated by: BB Enterprises, Lucknow, Uttar Pradesh, India</li>
+  </ul>
+</main>
+<footer>
+  <div class="footer-container">
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms-of-service.html">Terms of Service</a>
+      <a href="refund-policy.html">Refund Policy</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+    <p class="footer-copy">© 2026 Bzillion.Club (BB Enterprises). All rights reserved. &nbsp;|&nbsp; admin@bzillion.club</p>
+  </div>
+</footer>
+</body>
+</html>
