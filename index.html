@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bzillion.Club VIP — Get 128,000+ Buyers Seeing Your Offer Daily</title>
+  <meta name="description" content="Stop paying for dead traffic. Get VIP access to 128,000+ active buyers for just $15/year. One powerful broadcast daily. Real results. Real community."/>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <script type="text/javascript" src="https://warriorplus.com/o2/disclaimer/c3j5dq" defer></script>
+  <style>
+    :root {
+      --red: #cc0000;
+      --red-bright: #ff1a1a;
+      --red-glow: rgba(204,0,0,0.25);
+      --gold: #c9a84c;
+      --gold-light: #e8c97a;
+      --dark: #080808;
+      --dark2: #0f0f0f;
+      --dark3: #161616;
+      --dark4: #1e1e1e;
+      --border: #252525;
+      --white: #f5f0eb;
+      --muted: #777;
+      --text: #c8c0b8;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--dark);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    /* ── NOISE TEXTURE OVERLAY ── */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 1000;
+      opacity: 0.4;
+    }
+
+    /* ── TYPOGRAPHY ── */
+    .display { font-family: 'Oswald', sans-serif; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; }
+    .serif { font-family: 'Source Serif 4', serif; }
+
+    /* ── ANNOUNCEMENT BAR ── */
+    .topbar {
+      background: var(--red);
+      text-align: center;
+      padding: 10px 20px;
+      font-family: 'Oswald', sans-serif;
+      font-size: 14px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--white);
+    }
+    .topbar span { color: var(--gold-light); }
+
+    /* ── HEADER ── */
+    header {
+      background: var(--dark2);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .logo {
+      font-family: 'Oswald', sans-serif;
+      font-size: 26px;
+      font-weight: 700;
+      color: var(--white);
+      text-decoration: none;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+    .logo em { color: var(--red); font-style: normal; }
+    .header-trust { font-size: 13px; color: var(--muted); display: flex; align-items: center; gap: 20px; }
+    .header-trust span { display: flex; align-items: center; gap: 6px; }
+    .header-trust .dot { width: 7px; height: 7px; border-radius: 50%; background: #22c55e; display: inline-block; animation: pulse 2s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+
+    /* ── HERO ── */
+    .hero {
+      position: relative;
+      padding: 100px 40px 80px;
+      text-align: center;
+      overflow: hidden;
+    }
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 80% 50% at 50% 0%, rgba(204,0,0,0.15) 0%, transparent 65%),
+        radial-gradient(ellipse 40% 30% at 20% 80%, rgba(201,168,76,0.05) 0%, transparent 50%),
+        var(--dark);
+    }
+    .hero-lines {
+      position: absolute;
+      inset: 0;
+      background-image: repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 80px,
+        rgba(255,255,255,0.015) 80px,
+        rgba(255,255,255,0.015) 81px
+      );
+    }
+    .hero-content { position: relative; z-index: 2; max-width: 900px; margin: 0 auto; }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(204,0,0,0.1);
+      border: 1px solid rgba(204,0,0,0.3);
+      border-radius: 2px;
+      padding: 6px 16px;
+      font-family: 'Oswald', sans-serif;
+      font-size: 12px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--red-bright);
+      margin-bottom: 32px;
+    }
+    .eyebrow::before { content: ''; width: 6px; height: 6px; background: var(--red-bright); border-radius: 50%; }
+
+    .hero h1 {
+      font-family: 'Oswald', sans-serif;
+      font-weight: 700;
+      font-size: clamp(42px, 7vw, 88px);
+      line-height: 1;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--white);
+      margin-bottom: 8px;
+    }
+    .hero h1 .accent { color: var(--red); display: block; }
+    .hero h1 .gold { color: var(--gold-light); }
+
+    .hero-divider {
+      width: 60px;
+      height: 3px;
+      background: linear-gradient(90deg, var(--red), var(--gold));
+      margin: 28px auto;
+    }
+
+    .hero-sub {
+      font-family: 'Source Serif 4', serif;
+      font-size: clamp(18px, 2.5vw, 22px);
+      color: var(--text);
+      max-width: 680px;
+      margin: 0 auto 48px;
+      line-height: 1.7;
+    }
+    .hero-sub strong { color: var(--white); font-weight: 600; }
+
+    /* ── PRICE DISPLAY ── */
+    .price-hero {
+      display: block;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 36px;
+    }
+    .price-was {
+      font-size: 16px;
+      color: var(--muted);
+      text-decoration: line-through;
+      margin-bottom: 4px;
+    }
+    .price-now {
+      font-family: 'Oswald', sans-serif;
+      font-size: 72px;
+      font-weight: 700;
+      color: var(--gold-light);
+      line-height: 1;
+      letter-spacing: 2px;
+    }
+    .price-per {
+      font-size: 14px;
+      color: var(--muted);
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-top: 4px;
+    }
+    .price-save {
+      display: inline-block;
+      background: var(--red);
+      color: var(--white);
+      font-family: 'Oswald', sans-serif;
+      font-size: 13px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 4px 14px;
+      border-radius: 2px;
+      margin-top: 8px;
+    }
+
+    /* ── BUTTONS ── */
+    .btn-primary {
+      display: inline-block;
+      background: var(--red);
+      color: var(--white);
+      font-family: 'Oswald', sans-serif;
+      font-weight: 600;
+      font-size: clamp(16px, 2.5vw, 20px);
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 20px 48px;
+      border: none;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.2s;
+      clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 12px 100%, 0 calc(100% - 12px));
+    }
+    .btn-primary::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, transparent 60%);
+      transition: opacity 0.2s;
+    }
+    .btn-primary:hover { transform: translateY(-2px); }
+    .btn-primary:hover::before { opacity: 0; }
+    .btn-primary.gold-btn {
+      background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 50%, var(--gold) 100%);
+      color: #1a0f00;
+      box-shadow: 0 8px 40px rgba(201,168,76,0.3);
+    }
+    .btn-sub {
+      display: block;
+      font-size: 13px;
+      color: var(--muted);
+      margin-top: 12px;
+      letter-spacing: 1px;
+    }
+
+    /* ── TRUST STRIP ── */
+    .trust-strip {
+      background: var(--dark2);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 20px 40px;
+    }
+    .trust-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+    .trust-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+    .trust-item .icon { font-size: 20px; }
+    .trust-item strong { color: var(--white); font-size: 16px; display: block; }
+
+    /* ── SECTIONS ── */
+    section { padding: 80px 40px; }
+    .container { max-width: 900px; margin: 0 auto; }
+    .section-eyebrow {
+      font-family: 'Oswald', sans-serif;
+      font-size: 11px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: 12px;
+    }
+    .section-title {
+      font-family: 'Oswald', sans-serif;
+      font-size: clamp(30px, 4.5vw, 52px);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--white);
+      line-height: 1.05;
+      margin-bottom: 24px;
+    }
+    .section-title .red { color: var(--red); }
+    .section-title .gold { color: var(--gold-light); }
+    .lead {
+      font-family: 'Source Serif 4', serif;
+      font-size: 18px;
+      color: var(--text);
+      max-width: 680px;
+      line-height: 1.8;
+    }
+
+    /* ── PROBLEM SECTION ── */
+    .problem { background: var(--dark2); }
+    .pain-list { margin-top: 40px; display: flex; flex-direction: column; gap: 2px; }
+    .pain-item {
+      background: var(--dark3);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--red);
+      padding: 20px 24px;
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      transition: border-color 0.2s;
+    }
+    .pain-item:hover { border-color: var(--red); border-left-color: var(--red); }
+    .pain-icon { font-size: 22px; flex-shrink: 0; margin-top: 2px; }
+    .pain-item h4 { font-family: 'Oswald', sans-serif; font-weight: 600; font-size: 18px; letter-spacing: 0.5px; color: var(--white); margin-bottom: 4px; }
+    .pain-item p { font-size: 14px; color: var(--muted); margin: 0; line-height: 1.6; }
+
+    /* ── SOLUTION SECTION ── */
+    .solution { background: var(--dark); }
+    .solution-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; margin-top: 40px; }
+    @media(max-width:640px){ .solution-grid { grid-template-columns: 1fr; } }
+    .sol-card {
+      background: var(--dark3);
+      border: 1px solid var(--border);
+      padding: 28px;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .sol-card:hover { border-color: var(--gold); transform: translateY(-2px); }
+    .sol-card .s-icon { font-size: 32px; margin-bottom: 14px; }
+    .sol-card h4 { font-family: 'Oswald', sans-serif; font-weight: 600; font-size: 19px; letter-spacing: 0.5px; color: var(--white); margin-bottom: 8px; }
+    .sol-card p { font-size: 14px; color: var(--muted); line-height: 1.7; margin: 0; }
+    .sol-card .tag {
+      display: inline-block;
+      background: rgba(201,168,76,0.1);
+      border: 1px solid rgba(201,168,76,0.2);
+      color: var(--gold-light);
+      font-size: 11px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 3px 10px;
+      border-radius: 2px;
+      margin-bottom: 12px;
+      font-family: 'Oswald', sans-serif;
+    }
+
+    /* ── WHAT YOU GET ── */
+    .whatyouget { background: var(--dark2); }
+    .benefits-wrap {
+      margin-top: 40px;
+      background: var(--dark3);
+      border: 1px solid var(--border);
+      overflow: hidden;
+    }
+    .benefit-row {
+      display: grid;
+      grid-template-columns: 56px 1fr auto;
+      align-items: center;
+      gap: 20px;
+      padding: 20px 24px;
+      border-bottom: 1px solid var(--border);
+      transition: background 0.2s;
+    }
+    .benefit-row:last-child { border-bottom: none; }
+    .benefit-row:hover { background: rgba(255,255,255,0.02); }
+    .b-num {
+      font-family: 'Oswald', sans-serif;
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--border);
+      text-align: center;
+    }
+    .b-body h4 { font-family: 'Oswald', sans-serif; font-weight: 600; font-size: 17px; color: var(--white); letter-spacing: 0.5px; margin-bottom: 3px; }
+    .b-body p { font-size: 13px; color: var(--muted); margin: 0; }
+    .b-badge {
+      font-family: 'Oswald', sans-serif;
+      font-size: 11px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      border-radius: 2px;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .b-badge.included { background: rgba(34,197,94,0.1); border: 1px solid rgba(34,197,94,0.2); color: #4ade80; }
+    .b-badge.bonus { background: rgba(201,168,76,0.1); border: 1px solid rgba(201,168,76,0.3); color: var(--gold-light); }
+
+    /* ── PROOF / STATS ── */
+    .proof { background: var(--dark); position: relative; overflow: hidden; }
+    .proof::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 60% 80% at 50% 50%, rgba(204,0,0,0.06) 0%, transparent 70%);
+    }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2px;
+      margin-top: 40px;
+      position: relative;
+    }
+    @media(max-width:500px){ .stats-grid { grid-template-columns: 1fr; } }
+    .stat-box {
+      background: var(--dark3);
+      border: 1px solid var(--border);
+      padding: 36px 24px;
+      text-align: center;
+    }
+    .stat-num {
+      font-family: 'Oswald', sans-serif;
+      font-size: clamp(38px, 5vw, 56px);
+      font-weight: 700;
+      color: var(--red-bright);
+      line-height: 1;
+      letter-spacing: 1px;
+    }
+    .stat-label { font-size: 13px; color: var(--muted); margin-top: 8px; line-height: 1.5; letter-spacing: 0.5px; }
+    .stat-label strong { color: var(--text); display: block; font-size: 14px; margin-bottom: 2px; }
+
+    /* ── TRUSTPILOT REVIEWS ── */
+    .reviews { background: var(--dark2); }
+    .review-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 40px; }
+    @media(max-width:640px){ .review-grid { grid-template-columns: 1fr; } }
+    .review-card {
+      background: var(--dark3);
+      border: 1px solid var(--border);
+      padding: 28px;
+      position: relative;
+    }
+    .review-stars { color: #00b67a; font-size: 16px; letter-spacing: 2px; margin-bottom: 12px; }
+    .review-text {
+      font-family: 'Source Serif 4', serif;
+      font-style: italic;
+      font-size: 15px;
+      color: var(--text);
+      line-height: 1.7;
+      margin-bottom: 16px;
+    }
+    .review-author { font-family: 'Oswald', sans-serif; font-size: 14px; letter-spacing: 1px; color: var(--muted); }
+    .review-author strong { color: var(--gold-light); }
+    .tp-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(0,182,122,0.08);
+      border: 1px solid rgba(0,182,122,0.2);
+      border-radius: 3px;
+      padding: 6px 14px;
+      font-size: 12px;
+      color: #4ade80;
+      font-family: 'Oswald', sans-serif;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+    }
+    .tp-badge::before { content: '✓'; }
+
+    /* ── PRICING ── */
+    .pricing { background: var(--dark); }
+    .pricing-card {
+      max-width: 600px;
+      margin: 40px auto 0;
+      background: var(--dark3);
+      border: 1px solid var(--gold);
+      position: relative;
+      overflow: hidden;
+    }
+    .pricing-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--red), var(--gold), var(--red));
+    }
+    .pricing-best {
+      background: var(--gold);
+      color: #1a0f00;
+      font-family: 'Oswald', sans-serif;
+      font-size: 12px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      text-align: center;
+      padding: 8px;
+      font-weight: 600;
+    }
+    .pricing-header { padding: 36px 36px 28px; text-align: center; border-bottom: 1px solid var(--border); }
+    .pricing-name {
+      font-family: 'Oswald', sans-serif;
+      font-size: 14px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 16px;
+    }
+    .pricing-amount { display: flex; align-items: flex-end; justify-content: center; gap: 8px; margin-bottom: 8px; }
+    .p-was { font-size: 20px; color: var(--muted); text-decoration: line-through; padding-bottom: 8px; }
+    .p-now { font-family: 'Oswald', sans-serif; font-size: 80px; font-weight: 700; color: var(--gold-light); line-height: 1; }
+    .p-period { font-size: 18px; color: var(--muted); padding-bottom: 14px; }
+    .p-saving {
+      display: inline-block;
+      background: rgba(204,0,0,0.15);
+      border: 1px solid rgba(204,0,0,0.3);
+      color: var(--red-bright);
+      font-family: 'Oswald', sans-serif;
+      font-size: 13px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 5px 16px;
+      border-radius: 2px;
+    }
+    .pricing-features { padding: 28px 36px; }
+    .p-feature {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 12px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.04);
+      font-size: 15px;
+      color: var(--text);
+    }
+    .p-feature:last-child { border-bottom: none; }
+    .p-feature .check { color: #4ade80; font-size: 16px; flex-shrink: 0; }
+    .p-feature strong { color: var(--white); }
+    .pricing-cta { padding: 0 36px 36px; text-align: center; }
+    .pricing-note { font-size: 13px; color: var(--muted); margin-top: 14px; line-height: 1.6; }
+
+    /* ── HOW IT WORKS ── */
+    .howitworks { background: var(--dark2); }
+    .steps-timeline { margin-top: 40px; position: relative; }
+    .steps-timeline::before {
+      content: '';
+      position: absolute;
+      left: 28px;
+      top: 0; bottom: 0;
+      width: 1px;
+      background: linear-gradient(180deg, var(--red) 0%, var(--gold) 50%, transparent 100%);
+    }
+    .step-item {
+      display: flex;
+      gap: 28px;
+      padding: 0 0 36px 0;
+      position: relative;
+    }
+    .step-item:last-child { padding-bottom: 0; }
+    .step-circle {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: var(--dark3);
+      border: 2px solid var(--red);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Oswald', sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--red);
+      flex-shrink: 0;
+      position: relative;
+      z-index: 2;
+    }
+    .step-content { padding-top: 12px; }
+    .step-content h4 { font-family: 'Oswald', sans-serif; font-weight: 600; font-size: 20px; letter-spacing: 0.5px; color: var(--white); margin-bottom: 6px; }
+    .step-content p { font-size: 14px; color: var(--muted); line-height: 1.7; margin: 0; }
+
+    /* ── URGENCY ── */
+    .urgency {
+      background: linear-gradient(135deg, #1a0000 0%, var(--dark) 100%);
+      border-top: 1px solid rgba(204,0,0,0.3);
+      border-bottom: 1px solid rgba(204,0,0,0.3);
+      text-align: center;
+    }
+    .progress-wrap { max-width: 500px; margin: 24px auto 8px; background: var(--dark4); height: 20px; border-radius: 0; overflow: hidden; }
+    .progress-fill { height: 100%; width: 82%; background: linear-gradient(90deg, var(--red), var(--red-bright)); position: relative; }
+    .progress-fill::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: repeating-linear-gradient(
+        -45deg,
+        transparent,
+        transparent 8px,
+        rgba(255,255,255,0.08) 8px,
+        rgba(255,255,255,0.08) 16px
+      );
+    }
+    .progress-label { font-size: 13px; color: var(--muted); margin-bottom: 36px; }
+    .progress-label strong { color: var(--white); }
+
+    /* ── FAQ ── */
+    .faq { background: var(--dark); }
+    .faq-list { margin-top: 36px; display: flex; flex-direction: column; gap: 2px; }
+    .faq-item { background: var(--dark3); border: 1px solid var(--border); }
+    .faq-q {
+      width: 100%; background: none; border: none;
+      color: var(--white); font-family: 'DM Sans', sans-serif;
+      font-weight: 600; font-size: 16px;
+      padding: 22px 24px; text-align: left; cursor: pointer;
+      display: flex; justify-content: space-between; align-items: center; gap: 12px;
+    }
+    .faq-q:hover { color: var(--gold-light); }
+    .faq-arrow { font-size: 18px; transition: transform 0.3s; color: var(--red); flex-shrink: 0; }
+    .faq-item.open .faq-arrow { transform: rotate(45deg); }
+    .faq-a { max-height: 0; overflow: hidden; transition: max-height 0.35s ease; }
+    .faq-item.open .faq-a { max-height: 300px; }
+    .faq-a-inner { padding: 0 24px 20px; font-size: 15px; color: var(--muted); line-height: 1.8; border-top: 1px solid var(--border); padding-top: 16px; }
+
+    /* ── FINAL CTA ── */
+    .final-cta {
+      background: var(--dark2);
+      border-top: 1px solid var(--border);
+      text-align: center;
+      padding: 100px 40px;
+      position: relative;
+      overflow: hidden;
+    }
+    .final-cta::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 70% 60% at 50% 50%, rgba(201,168,76,0.05) 0%, transparent 70%);
+    }
+    .final-cta .container { position: relative; }
+    .final-cta h2 { font-family: 'Oswald', sans-serif; font-size: clamp(32px, 5vw, 60px); font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--white); margin-bottom: 16px; line-height: 1.1; }
+    .final-cta p { font-family: 'Source Serif 4', serif; font-size: 18px; color: var(--text); max-width: 580px; margin: 0 auto 40px; line-height: 1.8; }
+    .ps { margin-top: 36px; font-size: 14px; color: var(--muted); max-width: 560px; margin-left: auto; margin-right: auto; line-height: 1.8; }
+    .ps strong { color: var(--gold-light); }
+
+    /* ── FOOTER ── */
+    footer {
+      background: #050505;
+      border-top: 1px solid var(--border);
+      padding: 50px 40px 30px;
+      font-size: 13px;
+      color: #555;
+    }
+    .footer-container { max-width: 900px; margin: 0 auto; }
+    .disclaimer-box { background: var(--dark3); border: 1px solid var(--border); padding: 20px 24px; margin-bottom: 16px; font-size: 12px; color: #555; line-height: 1.8; }
+    .disclaimer-box h5 { font-family: 'Oswald', sans-serif; letter-spacing: 2px; font-size: 11px; text-transform: uppercase; color: #444; margin-bottom: 8px; }
+    .footer-links { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; margin: 24px 0 12px; }
+    .footer-links a { color: #555; text-decoration: none; font-size: 13px; transition: color 0.2s; }
+    .footer-links a:hover { color: var(--white); }
+    .footer-copy { text-align: center; color: #444; font-size: 12px; }
+
+    /* ── STICKY BAR ── */
+    .sticky-bar {
+      position: fixed; bottom: 0; left: 0; right: 0;
+      background: var(--dark2);
+      border-top: 2px solid var(--red);
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      z-index: 999;
+      transform: translateY(100%);
+      transition: transform 0.4s ease;
+    }
+    .sticky-bar.visible { transform: translateY(0); }
+    .sticky-bar p { font-family: 'Oswald', sans-serif; font-size: 16px; letter-spacing: 1px; color: var(--white); }
+    .sticky-bar p span { color: var(--gold-light); }
+    .sticky-bar a {
+      background: var(--red);
+      color: var(--white);
+      font-family: 'Oswald', sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 10px 24px;
+      white-space: nowrap;
+      transition: background 0.2s;
+    }
+    .sticky-bar a:hover { background: var(--red-bright); }
+
+    /* ── ANIMATIONS ── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .hero-content > * { animation: fadeUp 0.7s ease both; }
+    .eyebrow { animation-delay: 0.1s; }
+    .hero h1 { animation-delay: 0.2s; }
+    .hero-divider { animation-delay: 0.3s; }
+    .hero-sub { animation-delay: 0.4s; }
+    .price-hero { animation-delay: 0.5s; }
+    .hero .btn-primary { animation-delay: 0.6s; }
+
+    @media(max-width:640px){
+      header { padding: 16px 20px; }
+      section { padding: 60px 20px; }
+      .hero { padding: 70px 20px 60px; }
+      .benefit-row { grid-template-columns: 40px 1fr; }
+      .b-badge { display: none; }
+      .pricing-header, .pricing-features, .pricing-cta { padding-left: 24px; padding-right: 24px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- STICKY BAR -->
+<div class="sticky-bar" id="stickyBar">
+  <p>VIP Yearly — <span>$15/year</span> (Was $24)</p>
+  <a href="https://warriorplus.com">GET VIP ACCESS NOW →</a>
+</div>
+
+<!-- TOP BAR -->
+<div class="topbar">⚡ Limited Launch Pricing — <span>37% OFF</span> — Only $15/Year (Normally $24)</div>
+
+<!-- HEADER -->
+<header>
+  <a href="#" class="logo">Bzillion<em>.</em>Club</a>
+  <div class="header-trust">
+    <span><span class="dot"></span> 128,000+ Active Members</span>
+    <span>⭐ Verified on Trustpilot</span>
+    <span>🔒 Secure Checkout</span>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-lines"></div>
+  <div class="hero-content">
+    <div class="eyebrow">VIP Annual Membership — Now Open</div>
+    <h1>
+      Stop Paying For<br/>
+      <span class="accent">Traffic That Doesn't Buy.</span>
+      <span class="gold" style="font-size:0.55em; letter-spacing:3px; display:block; margin-top:12px;">Get Direct Access to 128,000+ Proven Buyers</span>
+    </h1>
+    <div class="hero-divider"></div>
+    <p class="hero-sub">
+      Every day, <strong>128,000+ active entrepreneurs</strong> log into Bzillion.Club looking for opportunities to act on. As a VIP member, your broadcast lands directly on their dashboard — no algorithm, no guesswork, <strong>just your message in front of buyers.</strong>
+    </p>
+    <div class="price-hero">
+      <div class="price-was">Normal Price: $24/year</div>
+      <div class="price-now">$15</div>
+      <div class="price-per">Per Year — One Payment. Full Access.</div>
+      <div class="price-save">You Save $9 — 37% Off Launch Pricing</div>
+    </div>
+    <a href="https://warriorplus.com" class="btn-primary gold-btn">YES — I Want VIP Access for $15/Year →</a>
+    <span class="btn-sub">🔒 Secure Checkout via WarriorPlus &nbsp;|&nbsp; Instant Access &nbsp;|&nbsp; Digital Delivery</span>
+  </div>
+</section>
+
+<!-- TRUST STRIP -->
+<div class="trust-strip">
+  <div class="trust-inner">
+    <div class="trust-item"><span class="icon">👥</span><div><strong>128,000+</strong> Active Members</div></div>
+    <div class="trust-item"><span class="icon">📣</span><div><strong>6.8M+</strong> Ad Hits Processed</div></div>
+    <div class="trust-item"><span class="icon">💸</span><div><strong>Payments</strong> Verified & On-Time</div></div>
+    <div class="trust-item"><span class="icon">⭐</span><div><strong>156+</strong> Trustpilot Reviews</div></div>
+    <div class="trust-item"><span class="icon">🌍</span><div><strong>Global</strong> Community</div></div>
+  </div>
+</div>
+
+<!-- PROBLEM -->
+<section class="problem">
+  <div class="container">
+    <div class="section-eyebrow">The Cold Truth</div>
+    <h2 class="section-title">Your Traffic Problem<br/>Isn't Traffic. It's <span class="red">Intent.</span></h2>
+    <p class="lead">Most "traffic" you buy is from people who have zero intention of buying anything. You're not fighting for clicks. You're fighting for attention from people who are <em>already in buying mode.</em></p>
+    <div class="pain-list">
+      <div class="pain-item">
+        <div class="pain-icon">💸</div>
+        <div>
+          <h4>Facebook & Google Ads — You Pay to Interrupt</h4>
+          <p>You're paying premium rates to interrupt people who didn't ask to see your ad. Most scroll past. You pay anyway. CPCs keep rising. ROI keeps dropping.</p>
+        </div>
+      </div>
+      <div class="pain-item">
+        <div class="pain-icon">📉</div>
+        <div>
+          <h4>Email Lists — Shrinking Open Rates</h4>
+          <p>Your carefully built list now opens at 12–18% on a good day. The people who bought years ago are gone. You're emailing ghosts.</p>
+        </div>
+      </div>
+      <div class="pain-item">
+        <div class="pain-icon">🎰</div>
+        <div>
+          <h4>Social Media — Algorithm Roulette</h4>
+          <p>You post. 3% of your followers see it. You boost it. 97% of viewers don't care. You repeat. Nothing changes.</p>
+        </div>
+      </div>
+      <div class="pain-item">
+        <div class="pain-icon">⏳</div>
+        <div>
+          <h4>SEO & Content — Takes Months. Maybe Years.</h4>
+          <p>Great long-term strategy. Terrible if you need to move product <em>this month.</em> You need buyers now, not rankings next year.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SOLUTION -->
+<section class="solution">
+  <div class="container">
+    <div class="section-eyebrow">The Bzillion Difference</div>
+    <h2 class="section-title">A Community Built<br/>Around <span class="gold">Buying & Opportunity</span></h2>
+    <p class="lead">Bzillion.Club members don't wander in from random searches. They show up every single day — specifically to discover offers, click ads, and act on opportunities. This is the only audience worth broadcasting to.</p>
+    <div class="solution-grid">
+      <div class="sol-card">
+        <div class="tag">Daily Broadcast</div>
+        <div class="s-icon">📡</div>
+        <h4>One Powerful Shot, Every 24 Hours</h4>
+        <p>Post one broadcast message daily to every active member's dashboard. No algorithm decides who sees it. Everyone does. The 1-per-day rule keeps the feed clean — and your message respected.</p>
+      </div>
+      <div class="sol-card">
+        <div class="tag">Real Audience</div>
+        <div class="s-icon">🎯</div>
+        <h4>128,000+ Entrepreneurs, Not Bots</h4>
+        <p>Every member is verified. Every click is real. These are people already spending money online — on tools, courses, memberships, and affiliate offers just like yours.</p>
+      </div>
+      <div class="sol-card">
+        <div class="tag">Earn While You Advertise</div>
+        <div class="s-icon">💰</div>
+        <h4>Multiple Income Streams Built In</h4>
+        <p>Earn $0.05 per direct referral. View PTC ads for passive credits. Earn daily login bonuses. Your membership pays for itself when you're active.</p>
+      </div>
+      <div class="sol-card">
+        <div class="tag">Network Effect</div>
+        <div class="s-icon">🤝</div>
+        <h4>Private Messaging to Any Member</h4>
+        <p>VIP members can message any of the 128K+ members directly. Find JV partners, collaborate on deals, or follow up with interested prospects — personally.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT YOU GET -->
+<section class="whatyouget">
+  <div class="container">
+    <div class="section-eyebrow">Your VIP Package</div>
+    <h2 class="section-title">Everything Included in Your<br/><span class="gold">$15 Annual VIP Membership</span></h2>
+    <p class="lead">One payment. 365 days of access. Here is exactly what you unlock the moment your purchase is confirmed.</p>
+    <div class="benefits-wrap">
+      <div class="benefit-row">
+        <div class="b-num">01</div>
+        <div class="b-body">
+          <h4>365 Daily Broadcast Credits</h4>
+          <p>One broadcast to the full community every day for an entire year — 365 direct marketing opportunities</p>
+        </div>
+        <div class="b-badge included">Included</div>
+      </div>
+      <div class="benefit-row">
+        <div class="b-num">02</div>
+        <div class="b-body">
+          <h4>Private Messaging — Any Member</h4>
+          <p>Send direct messages to any of the 128K+ members. Network, partner, and convert personally</p>
+        </div>
+        <div class="b-badge included">Included</div>
+      </div>
+      <div class="benefit-row">
+        <div class="b-num">03</div>
+        <div class="b-body">
+          <h4>PTC Ad Posting & Traffic Monetization</h4>
+          <p>Post your own Paid-to-Click ads to drive targeted traffic, or earn by viewing other members' ads</p>
+        </div>
+        <div class="b-badge included">Included</div>
+      </div>
+      <div class="benefit-row">
+        <div class="b-num">04</div>
+        <div class="b-body">
+          <h4>Referral Commissions — $0.05 Per Sign-Up</h4>
+          <p>Earn on every direct referral. Paid weekly in USDC to your wallet. Withdraw from just $10</p>
+        </div>
+        <div class="b-badge included">Included</div>
+      </div>
+      <div class="benefit-row">
+        <div class="b-num">05</div>
+        <div class="b-body">
+          <h4>25% Upgrade Commission from Referrals</h4>
+          <p>When your referrals upgrade to VIP or Elite, you earn 25% of their membership fee automatically</p>
+        </div>
+        <div class="b-badge included">Included</div>
+      </div>
+      <div class="benefit-row">
+        <div class="b-num">06</div>
+        <div class="b-body">
+          <h4>Daily Login Bonus</h4>
+          <p>Earn credits simply by logging in every day. Consistent activity compounds over your 365-day membership</p>
+        </div>
+        <div class="b-badge included">Included</div>
+      </div>
+      <div class="benefit-row">
+        <div class="b-num">07</div>
+        <div class="b-body">
+          <h4>VIP Badge — Platform Credibility</h4>
+          <p>Stand out in the community. VIP badge signals authority and increases engagement on your broadcasts</p>
+        </div>
+        <div class="b-badge included">Included</div>
+      </div>
+      <div class="benefit-row">
+        <div class="b-num">08</div>
+        <div class="b-body">
+          <h4>BONUS: 1,000 Targeted Visits to Your Link</h4>
+          <p>We send 1,000 real visits from active Bzillion members to any link you choose — delivered manually within 48–72 hours of joining</p>
+        </div>
+        <div class="b-badge bonus">🎁 Free Bonus</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROOF / STATS -->
+<section class="proof">
+  <div class="container">
+    <div class="section-eyebrow">Live Platform Data</div>
+    <h2 class="section-title">The Numbers Behind<br/>the <span class="red">Community</span></h2>
+    <p class="lead">These aren't projections or estimates. These are live figures pulled from the Bzillion.Club platform — updated in real time.</p>
+    <div class="stats-grid">
+      <div class="stat-box">
+        <div class="stat-num">128K+</div>
+        <div class="stat-label"><strong>Verified Members</strong>Active entrepreneurs logging in daily</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-num">6.8M+</div>
+        <div class="stat-label"><strong>Ad Hits Processed</strong>Real clicks from real people</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-num">400+</div>
+        <div class="stat-label"><strong>Active Promotions</strong>Running successfully right now</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUSTPILOT REVIEWS -->
+<section class="reviews">
+  <div class="container">
+    <div class="section-eyebrow">Verified Reviews</div>
+    <h2 class="section-title">What Real Members<br/>Are Saying on <span class="gold">Trustpilot</span></h2>
+    <div class="tp-badge">156+ Verified Reviews on Trustpilot</div>
+    <div class="review-grid">
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <div class="review-text">"This is a great worldwide platform to advertise your online business. I have made many sales and received many leads using this platform, and I highly recommend it."</div>
+        <div class="review-author"><strong>Verified Member</strong> — Trustpilot Review</div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <div class="review-text">"I already have made 3 withdrawals of $10 USD each. A good and reliable income-generating site with acceptable possibilities for advertising with numerous members."</div>
+        <div class="review-author"><strong>Verified Member</strong> — Trustpilot Review</div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <div class="review-text">"Payouts made on time. It's a very useful marketing tool. Fast and direct connection with active team members. Best platform to earn money and create ads."</div>
+        <div class="review-author"><strong>Verified Member</strong> — Trustpilot Review</div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <div class="review-text">"BZILLION stood strong for an impressive amount of time. This platform works for anyone regardless of experience. It's the people you connect with that offer the true value here!"</div>
+        <div class="review-author"><strong>Verified Member</strong> — Trustpilot Review</div>
+      </div>
+    </div>
+    <p style="margin-top:20px; font-size:13px; color:var(--muted); text-align:center;">
+      Read all reviews at <a href="https://www.trustpilot.com/review/bzillion.club" target="_blank" style="color:var(--gold-light); text-decoration:none;">trustpilot.com/review/bzillion.club</a>
+    </p>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="pricing">
+  <div class="container">
+    <div class="section-eyebrow">Simple Pricing</div>
+    <h2 class="section-title" style="text-align:center;">One Price.<br/><span class="gold">One Full Year.</span> No Surprises.</h2>
+    <div class="pricing-card">
+      <div class="pricing-best">⭐ Best Value — Annual VIP Membership</div>
+      <div class="pricing-header">
+        <div class="pricing-name">VIP Annual Plan</div>
+        <div class="pricing-amount">
+          <div class="p-was">$24</div>
+          <div class="p-now">$15</div>
+          <div class="p-period">/year</div>
+        </div>
+        <div class="p-saving">Launch Discount — Save $9 (37% OFF)</div>
+      </div>
+      <div class="pricing-features">
+        <div class="p-feature"><span class="check">✓</span> 365 Daily Broadcasts to 128,000+ members</div>
+        <div class="p-feature"><span class="check">✓</span> Private messaging to any member</div>
+        <div class="p-feature"><span class="check">✓</span> PTC ad posting & traffic monetization</div>
+        <div class="p-feature"><span class="check">✓</span> <strong>$0.05</strong> per direct referral commission</div>
+        <div class="p-feature"><span class="check">✓</span> <strong>25%</strong> upgrade commission from referrals</div>
+        <div class="p-feature"><span class="check">✓</span> Daily login bonuses</div>
+        <div class="p-feature"><span class="check">✓</span> VIP badge & priority support</div>
+        <div class="p-feature" style="color:var(--gold-light);"><span style="color:var(--gold-light);">🎁</span> <strong style="color:var(--gold-light);">BONUS: 1,000 Free Targeted Visits</strong></div>
+      </div>
+      <div class="pricing-cta">
+        <a href="https://warriorplus.com" class="btn-primary gold-btn" style="display:block; text-align:center;">Get VIP Access — Just $15/Year →</a>
+        <p class="pricing-note">
+          🔒 Secure checkout via WarriorPlus &nbsp;·&nbsp; Instant digital access &nbsp;·&nbsp; Weekly USDC payouts<br/>
+          Payments in USDC — update your wallet in Profile → Settings
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="howitworks">
+  <div class="container">
+    <div class="section-eyebrow">Getting Started</div>
+    <h2 class="section-title">Up & Running in<br/><span class="red">Under 10 Minutes</span></h2>
+    <div class="steps-timeline">
+      <div class="step-item">
+        <div class="step-circle">1</div>
+        <div class="step-content">
+          <h4>Complete Your Purchase on WarriorPlus</h4>
+          <p>Click the button, complete secure checkout. Your account credentials are generated and emailed to you instantly via our automated system. No waiting, no manual processing.</p>
+        </div>
+      </div>
+      <div class="step-item">
+        <div class="step-circle">2</div>
+        <div class="step-content">
+          <h4>Log In & Submit Your Bonus Visit Link</h4>
+          <p>Log into your new Bzillion.Club VIP dashboard. Head to settings and submit the link where you'd like your 1,000 bonus visits sent — any URL, any offer.</p>
+        </div>
+      </div>
+      <div class="step-item">
+        <div class="step-circle">3</div>
+        <div class="step-content">
+          <h4>Set Up Your USDC Wallet for Payouts</h4>
+          <p>Go to Profile → Settings and add your USDC wallet address and network. Payouts are processed every Sunday automatically.</p>
+        </div>
+      </div>
+      <div class="step-item">
+        <div class="step-circle">4</div>
+        <div class="step-content">
+          <h4>Post Your First Daily Broadcast</h4>
+          <p>Craft your one daily message — your best offer, your affiliate link, your lead magnet. Hit send. 128,000+ members see it on their dashboard. Track results in real time.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- URGENCY -->
+<section class="urgency">
+  <div class="container">
+    <div class="section-eyebrow">⚠️ Launch Pricing Warning</div>
+    <h2 class="section-title">This Price<br/>Won't Last</h2>
+    <p class="lead" style="margin:0 auto; text-align:center;">The $15/year launch price is strictly limited. Once this offer closes, the annual VIP plan returns to its regular price of $24. The 1,000 bonus visits are limited to launch members only.</p>
+    <div class="progress-wrap">
+      <div class="progress-fill"></div>
+    </div>
+    <p class="progress-label"><strong>Launch Slots Filling Fast</strong> — Price increases when this offer closes</p>
+    <a href="https://warriorplus.com" class="btn-primary">Lock In $15/Year Before Price Increases →</a>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq">
+  <div class="container">
+    <div class="section-eyebrow">Questions Answered</div>
+    <h2 class="section-title">Everything You<br/>Need to Know</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-q">What exactly is Bzillion.Club? <span class="faq-arrow">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">Bzillion.Club is a community advertising platform where 128,000+ entrepreneurs and marketers connect, advertise their offers, and earn through referrals and daily activity. It is NOT an MLM, not a get-rich-quick scheme, and not an investment platform. It is a legitimate digital social networking and advertising tool — similar in concept to a professional network, but built specifically for online marketers.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">How is this different from buying solo ads or Facebook ads? <span class="faq-arrow">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">Solo ads and Facebook ads deliver cold traffic — people who have no idea who you are. Bzillion.Club members are a warm, pre-qualified community of people who log in every day specifically to find offers and opportunities. The 1-per-day broadcast rule keeps the feed quality high, so your message is actually read — not scrolled past.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">When do I receive my 1,000 bonus visits? <span class="faq-arrow">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">After joining, submit your link via your VIP dashboard. All 1,000 visits are delivered manually from real, active Bzillion members within 48–72 hours. You can send them to any link — an affiliate offer, lead capture page, website, or sales funnel.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">How are commissions paid? What is USDC? <span class="faq-arrow">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">All payouts are made in USDC — a stable cryptocurrency pegged 1:1 to the US Dollar. You need a crypto wallet that supports USDC (such as Coinbase, Trust Wallet, or MetaMask). Payouts are processed automatically every Sunday. Minimum withdrawal is $10.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Is there a refund policy? <span class="faq-arrow">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">This is a digital product — membership fees are non-refundable as stated in our Terms of Service. This is consistent with standard digital advertising platform policies (similar to purchasing Facebook ad credit or a solo ad — once delivered, it cannot be returned). Please review our full Refund Policy before purchasing.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Can I cancel anytime? What happens after 1 year? <span class="faq-arrow">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">Your VIP membership is for one full year with a single payment of $15. You can activate auto-renewal to continue uninterrupted, or simply let it expire. You can deactivate auto-debit anytime from your account settings — no cancellation fees, no hidden charges.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Does Bzillion.Club work for any country? <span class="faq-arrow">+</span></button>
+        <div class="faq-a"><div class="faq-a-inner">Bzillion.Club follows a geographic tier system to maintain quality. Tier 1 countries (US, UK, Canada, Australia, and most of Europe) can join immediately. Some Tier 2 regions may require additional verification. VPN usage is strictly prohibited and will result in account termination. Contact support at admin@bzillion.club if you have region-specific questions.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final-cta">
+  <div class="container">
+    <h2>Your Buyers Are<br/>Already There.<br/><span style="color:var(--gold-light);">Are You?</span></h2>
+    <p>128,000+ entrepreneurs are logging into Bzillion.Club today. They're clicking. They're buying. They're looking for what you have. For $15 — less than $1.25 per month — you get a full year of direct access to all of them.</p>
+    <a href="https://warriorplus.com" class="btn-primary gold-btn">Yes — I Want VIP Access for $15/Year →</a>
+    <span class="btn-sub">🔒 Secure • Instant Access • 365 Days of Broadcasts + 1,000 Bonus Visits</span>
+    <p class="ps">
+      <strong>P.S.</strong> The $15 launch price and the 1,000 free bonus visits are both strictly limited to this launch window. Once this offer closes, the annual plan returns to $24 and the bonus visits are removed. If you're reading this, the offer is still live — but that can change today.
+    </p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-container">
+    <div class="wplus_spdisclaimer"></div>
+    <div class="disclaimer-box" style="margin-top:20px;">
+      <h5>Earnings & Income Disclaimer</h5>
+      Results mentioned are individual experiences. We make no income guarantees. Your results will vary based on your effort, strategy, market conditions, and individual circumstances. Bzillion.Club is a community advertising platform — not an investment vehicle, MLM, or guaranteed income program. Referral commissions depend entirely on your own promotional activity.
+    </div>
+    <div class="disclaimer-box">
+      <h5>WarriorPlus Disclaimer</h5>
+      WarriorPlus is used to help manage the sale of products on this site. While WarriorPlus helps facilitate the sale, all payments are made directly to the product vendor and NOT WarriorPlus. Thus, all product questions, support inquiries and/or refund requests must be sent to the vendor. WarriorPlus's role should not be construed as an endorsement, approval or review of these products or any claim, statement or opinion used in the marketing of these products.
+    </div>
+    <div class="disclaimer-box">
+      <h5>Platform Disclaimer</h5>
+      This website is not affiliated with Facebook, Google, Microsoft, or any other platform mentioned. All trademarks belong to their respective owners. Bzillion.Club operates under the laws of India, jurisdiction of Lucknow, Uttar Pradesh. All member statistics are live and updated in real time. All visits are delivered manually to ensure quality.
+    </div>
+    <div class="footer-links">
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms-of-service.html">Terms of Service</a>
+      <a href="refund-policy.html">Refund Policy</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="https://www.trustpilot.com/review/bzillion.club" target="_blank">Trustpilot Reviews</a>
+    </div>
+    <p class="footer-copy">© 2026 Bzillion.Club (BB Enterprises). All rights reserved. &nbsp;|&nbsp; admin@bzillion.club</p>
+  </div>
+</footer>
+
+<script>
+  // FAQ accordion
+  document.querySelectorAll('.faq-q').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const item = btn.closest('.faq-item');
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+      if (!isOpen) item.classList.add('open');
+    });
+  });
+
+  // Sticky bar
+  const sticky = document.getElementById('stickyBar');
+  window.addEventListener('scroll', () => {
+    sticky.classList.toggle('visible', window.scrollY > 600);
+  });
+</script>
+
+</body>
+</html>
