@@ -1133,7 +1133,24 @@
     <br><br>&nbsp;
   </div>
 </footer>
-
+<!-- Include SweetAlert in your HTML head -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+Swal.fire({
+    title: '⚠️ Important Payment Notice',
+    text: 'Payment via PayPal account have trouble activating your product. Please use Credit or Debit Card only.',
+    icon: 'warning',
+    confirmButtonText: 'I understand, proceed',
+    confirmButtonColor: '#d33',
+    showCancelButton: true,
+    cancelButtonText: 'Go back'
+}).then((result) => {
+    if (result.isConfirmed) {
+        // Proceed with payment
+        // Your payment code here
+    }
+});
+</script>
 <script>
   // FAQ accordion
   document.querySelectorAll('.faq-q').forEach(btn => {
